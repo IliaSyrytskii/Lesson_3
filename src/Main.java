@@ -6,7 +6,6 @@ import Cycles.*;
 import java.util.Scanner;
 
 
-
 public class Main {
     public static void main(String[] args) {
         Ex1 ex1 = new Ex1();
@@ -24,7 +23,6 @@ public class Main {
         Ex13 ex13 = new Ex13();
 
 
-
         Scanner sc = new Scanner(System.in);
 
         int Number;
@@ -32,7 +30,7 @@ public class Main {
 
         while (answer != 14) {
             System.out.print("""
-                    CONTROL STRUCTURES\t\tCYCLES\t\t\t\tADDITIONAL TASK
+                    CONTROL STRUCTURES\t\tCYCLES
                     1 - Ex 1.1\t\t\t6 - Ex 2.1
                     2 - Ex 1.2\t\t\t7 - Ex 2.2
                     3 - Ex 1.3\t\t\t8 - Ex 2.3
@@ -76,7 +74,8 @@ public class Main {
                 case 7 -> {
                     System.out.println("Ex2.2\nDecrement");
                     ex7.decrement();
-                }case 8 -> {
+                }
+                case 8 -> {
                     System.out.println("Ex2.3\nEnter a number");
                     Number = sc.nextInt();
                     ex8.sumOfNumbers(Number);
@@ -100,12 +99,12 @@ public class Main {
                 case 13 -> {
                     System.out.println("Ex3.2\nBank deposit");
 
-                        float contribution;
+                    float contribution;
                     System.out.println("Please, enter summary of your deposit");
-                        contribution = sc.nextInt();
+                    contribution = sc.nextInt();
 
                     System.out.println("Please, enter term of your deposit");
-                        Number = sc.nextInt();
+                    Number = sc.nextInt();
 
                     ex13.bankAccount(Number, contribution);
                 }
