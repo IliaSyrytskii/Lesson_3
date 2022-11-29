@@ -37,8 +37,8 @@ public class Main {
                     2 - Ex 1.2\t\t\t7 - Ex 2.2
                     3 - Ex 1.3\t\t\t8 - Ex 2.3
                     4 - Ex 1.4\t\t\t9 - Ex 2.4
-                    5 - Ex 1.5\t\t10 - Ex 2.5
-                    11 - Ex 2.6\t\t12 - Ex 3.1
+                    5 - Ex 1.5\t\t\t10 - Ex 2.5
+                    11 - Ex 2.6\t\t\t12 - Ex 3.1
                     13 - Ex 3.2
                     Your choice:\s""");
             answer = sc.nextInt();
